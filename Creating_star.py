@@ -2,7 +2,7 @@ from turtle import*
 import random
 speed(speed= 'fastest')
 def draw(n,x,angle):
-    #%23 loof for number of stars
+    #%23 loop for number of stars
     for i in range(n):
         colormode(255)
        # %23 choosing random integer
@@ -31,5 +31,5 @@ def draw(n,x,angle):
     #setting the parameters
 n = 30 #number of stars
 x = 144 # exterior angle of each star
-angle =18 # angle of rotation for the spiral
+angle = 18 # angle of rotation for the spiral
 draw(n,x,angle)
